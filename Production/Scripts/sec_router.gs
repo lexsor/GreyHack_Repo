@@ -107,7 +107,7 @@ miscFilesToRemove = [
     "/server/httpd",
     "/server/conf/httpd.conf",
     "/root/sshd_setup",
-    "/root/secure_router"]
+    "/root/sec_router"]
 
 for path in miscFilesToRemove
     f = routerShell.File(path)
