@@ -1,7 +1,7 @@
 # Prep Machine
 
 1. Start the game and begin with singleplayer. Finish tutorials and the first mission in it so that when you join multiplayer for the first time, you have gift.txt and hackshop ip instantly.
-2. Compile the following code as `passgen`, and run `passgen 20` to generate a 15 digit alphanumeric password. Copy the password to the GH_Login.txt.
+2. Compile the following code as `passgen`, and run `passgen 20` to generate a 20 digit alphanumeric password. Copy the password to the GH_Login.txt.
     
     ```tsx
     if not params then exit("Usage: " + program_path.split("/")[-1] + " [length]")
