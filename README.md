@@ -56,6 +56,7 @@ If you’d like to share scripts, fixes, or improvements:
 ## 📬 Contact
 
 GitHub: @lexsor
+
 Discord: Lexsor#8933
 
 ## 🙌 Credits & Acknowledgments
