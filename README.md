@@ -70,6 +70,7 @@ I want to give special thanks to the amazing Grey Hack community and the followi
 
 @Plu70 [https://github.com/jhook777]
  - For sharing their insights on different aspescts of the game to provide a better understanding.
+ - Many scripts and code blocks were used or modified within my tools.
 
 @GSQ
  - For sharing the **doom suite** of tools. This made the basic aspect of the game easy to manage.
