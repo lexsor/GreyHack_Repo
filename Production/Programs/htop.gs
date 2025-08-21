@@ -14,14 +14,14 @@ get_processes = function()
     raw_data = computer.show_procs()  
 
     lines = raw_data.split(char(10))  
-    if lines.len < 2 then return [] end if 
+    if lines.len < 2 then return []
     
     process_list = []
     
     for i in range(1, lines.len - 1)  
         parts = lines[i].split(" ")  
 
-        if parts.len < 5 then continue end if  
+        if parts.len < 5 then continue 
 
         user = parts[0]  
         pid = parts[1].to_int  

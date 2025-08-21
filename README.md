@@ -41,6 +41,8 @@ This repository is part of my journey to:
 
 ## 📌 Roadmap
 
+- Dev a program to capture vulnerabilities and build a db that can be referenced 
+- find or create a password keeper
 - Add a script index with descriptions & usage examples
 - Include documentation for major programs
 - Build larger modular tools for scanning, exploitation, and securing systems
