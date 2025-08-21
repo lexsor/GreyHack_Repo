@@ -33,6 +33,19 @@ opt_dir = function()
     else
         print("[+] Opt directory exist.")
     end if
+
+    // Check subdirectories
+    subdirs = ["Seclibs", "Unseclibs", "Scripts"]
+    for i in 0 to subdirs.len() - 1
+        path = "/opt/" + subdirs[i]
+        subdir = computer.File(path)
+        if not subdir then
+            computer.mkdir(path)
+            print("[*] " + subdirs[i] + " directory created.")
+        else
+            print("[+] " + subdirs[i] + " directory exists.")
+        end if
+    end for
 end function
 
 // get the root file object
