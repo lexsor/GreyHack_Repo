@@ -28,7 +28,7 @@ apt-get install doom
 - After proxy has been secured, setup ssh within doom
 
 ```tsx
-sshlist -a Server root@hhvHn2sNmV4xfBB 133.108.217.217 22
+sshlist -a Server root@passwd x.x.x.x 22
 ```
 
 - Now lets setup the config in doom
