@@ -18,6 +18,25 @@ lock = function( shell_object )
     home = shell_object.host_computer.File("/home")
     if home then home.delete
 
+    opt = shell_object.host_computer.File("/opt")
+    if not opt then 
+        opt.mkdir("/opt")
+    else
+        print("[+] Opt directory exists.")
+    end if
+
+    subdirs = ["Seclibs", "Unseclibs", "Scripts"]
+    for i in 0; i < subdirs.len(); i = i + 1
+        path = "/opt/" + subdirs[i]
+        subdir = shell_object.host_computer.File(path)
+        if not subdir then
+            shell_object.host_computer.mkdir(path)
+            print("[*] " + subdirs[i] + " directory created.")
+        else
+            print("[+] " + subdirs[i] + " directory exists.")
+        end if
+    end for
+
     fs = shell_object.host_computer.File("/")
     fs.set_owner("root",1)
     fs.set_group("root",1)

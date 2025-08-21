@@ -36,7 +36,7 @@ opt_dir = function()
 
     // Check subdirectories
     subdirs = ["Seclibs", "Unseclibs", "Scripts"]
-    for i in 0 to subdirs.len() - 1
+    for i in 0; i < subdirs.len(); i = i + 1
         path = "/opt/" + subdirs[i]
         subdir = computer.File(path)
         if not subdir then
