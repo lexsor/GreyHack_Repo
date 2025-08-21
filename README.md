@@ -78,6 +78,11 @@ I want to give special thanks to the amazing Grey Hack community and the followi
  - For sharing the **doom suite** of tools. This made the basic aspect of the game easy to manage.
  - All credits for anything related to **doom** goes to GSQ
 
+@Macha [https://github.com/MachaCeleste]
+- Motivation and ideas for scripting in the game
+- Security focused information like Secure/Unsecure Libs
+- Various scripts and code blocks
+
 The Grey Hack Discord Community — For troubleshooting tips, testing, and ongoing discussions about new strategies.
 Open Source Contributors — Any libraries, snippets, or resources referenced within the code are credited in their respective files.
 
