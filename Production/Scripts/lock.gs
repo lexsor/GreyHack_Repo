@@ -16,36 +16,43 @@ computer = get_shell.host_computer
 pwf = function()
     location = computer.File("/etc/passwd")
     if location then location.delete
+    print("[-] Password file deleted.")
 end function
 
 // guest directory
 guest_dir = function() 
     guest = computer.File("/home/guest")
-    if guest then guest.delete
+    if guest then 
+        guest.delete
+        print("[-] Guest directory deleted.")
+    else
+        print("[x] Could not find Guest directory.")
+    end if
 end function
 
-// check opt directory
+// create /opt directory 
 opt_dir = function()
-    opt = computer.File("/opt")
-    if not opt then
-        computer.mkdir("/opt")
-        print("[*] Opt directory created.")
-    else
-        print("[+] Opt directory exist.")
+    
+	opt = computer.File("/opt")
+	if not opt then
+		computer.create_folder("/", "opt")	
+    	print("[+] /opt checked/created.")
+	else
+        print("[*] /opt directory exist.")
     end if
+end function
 
-    // Check subdirectories
-    subdirs = ["Seclibs", "Unseclibs", "Scripts"]
-    for i in 0; i < subdirs.len(); i = i + 1
-        path = "/opt/" + subdirs[i]
-        subdir = computer.File(path)
-        if not subdir then
-            computer.mkdir(path)
-            print("[*] " + subdirs[i] + " directory created.")
-        else
-            print("[+] " + subdirs[i] + " directory exists.")
-        end if
+// create subdirectories in /opt
+sub_dir = function()
+    // Subdirectories to ensure
+    subdirs = ["seclibs", "unseclibs", "scripts"]
+
+    for subdir in subdirs
+		computer.create_folder("/opt", subdir)
+        print("[+] " + subdir + " checked/created.")
     end for
+
+    print("Finished checking all directories.")
 end function
 
 // get the root file object
@@ -74,7 +81,7 @@ check_Pii = function()
     mail = computer.File("/root/Config/Mail.txt")
     if mail then
         mail.delete
-        print("[$] Mail file deleted.")
+        print("[-] Mail file deleted.")
     else
         print("[x] Could not find mail.txt.")
     end if
@@ -82,7 +89,7 @@ check_Pii = function()
     bank = computer.File("/root/Config/Bank.txt")
     if bank then
         bank.delete
-        print("[$] Bank file deleted.")
+        print("[-] Bank file deleted.")
     else
         print("[x] Could not find bank.txt.")
     end if
@@ -92,6 +99,7 @@ main = function()
     pwf()
     guest_dir()
     opt_dir()
+	sub_dir()
     rootfs()
     check_Pii()
     print ("<b>Home server secured.</b>")
