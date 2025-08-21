@@ -56,5 +56,25 @@ If you’d like to share scripts, fixes, or improvements:
 ## 📬 Contact
 
 GitHub: @lexsor
+Discord: Lexsor#8933
 
- Discord: Lexsor#8933
+## 🙌 Credits & Acknowledgments
+
+I want to give special thanks to the amazing Grey Hack community and the following developers for their contributions, inspiration, and shared knowledge that helped make this project possible:
+
+@maho_citrus [https://github.com/mahocitrus]
+ - For starting me on my journey developing which inspired the automation logic used here.
+ - Many scripts and code blocks were used or modified within my tools.
+ - For publishing detailed write-ups on GreyScript networking and security concepts.
+
+@Plu70 [https://github.com/jhook777]
+ - For sharing their insights on different aspescts of the game to provide a better understanding.
+
+@GSQ
+ - For sharing the **doom suite** of tools. This made the basic aspect of the game easy to manage.
+ - All credits for anything related to **doom** goes to GSQ
+
+The Grey Hack Discord Community — For troubleshooting tips, testing, and ongoing discussions about new strategies.
+Open Source Contributors — Any libraries, snippets, or resources referenced within the code are credited in their respective files.
+
+If you notice any missing credits or would like your contribution acknowledged, feel free to open an issue or PR.
