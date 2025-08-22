@@ -14,12 +14,12 @@ Use checkboxes [ ] for pending tasks and [x] for completed ones.
 - [ ] Review current repository file structure for better organization
 
 ## 📝 Documentation
-- [ ] Add a script index with descriptions & usage examples
 - [ ] Update README.md to reflect new scripts and structure
 - [ ] Include documentation for major programs
 - [ ] Include credits for community contributors
 
 ## ✅ Completed
+- [x] Add a script index with descriptions & usage examples
 - [x] Debug lib_check.gs
 - [x] Set up proper /opt subdirectory creation using create_folder()
 - [x] Refactor scripts to replace deprecated computer.mkdir() calls
