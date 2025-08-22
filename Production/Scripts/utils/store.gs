@@ -1,3 +1,13 @@
+//////////////////////////////////////////////////////////
+// Script Name: store
+// Author: Lexsor
+// Created: 20 AUG 2025
+// Version: 1.0
+// Purpose: Installs a reverse shell client on the target
+// Changelog: [YYYY-MM-DD] v[VERSION] - [Changes made]
+//////////////////////////////////////////////////////////
+
+
 // Constants
 MAX_ATTEMPTS = 500  // Prevent infinite loops
 
