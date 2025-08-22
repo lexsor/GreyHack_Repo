@@ -1,3 +1,12 @@
+//////////////////////////////////////////////////////////
+// Script Name: aes256
+// Author: Lexsor
+// Created: 20 AUG 2025
+// Version: 0.1
+// Purpose: algorithm for AES-256 encryption and decryption
+// Changelog: [YYYY-MM-DD] v[VERSION] - [Changes made]
+//////////////////////////////////////////////////////////
+
 AES256 = {}
 
 // AES S-Box (Substitution Box) - Converted from hex to decimal
