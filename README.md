@@ -1,13 +1,14 @@
 # 🕶️ Grey Hack Scripts & Programs
-
-A personal collection of scripts, tools, macros, and programs I've developed for the hacking simulation game **[Grey Hack](https://store.steampowered.com/app/605230/Grey_Hack/)**.
-
-This repository contains my **in-development work**, **production-ready tools**, and a curated set of tools from other developers for learning and inspiration.
-
 ## ⚠️ Disclaimer
 
 These scripts are intended only for educational use within the Grey Hack environment.
 I do not support or condone real-world illegal hacking activities.
+
+---
+## Grey Hack 
+A personal collection of scripts, tools, macros, and programs I've developed for the hacking simulation game **[Grey Hack](https://store.steampowered.com/app/605230/Grey_Hack/)**.
+
+This repository contains my **in-development work**, **production-ready tools**, and a curated set of tools from other developers for learning and inspiration.
 
 ---
 
@@ -30,6 +31,10 @@ grey-hack-scripts/
 └── README.md             # You're here!
 ```
 
+## 📌 Roadmap
+
+- Check the TODO.md
+
 ## 🧠 Learning Goals
 
 This repository is part of my journey to:
@@ -38,9 +43,6 @@ This repository is part of my journey to:
 - Build automation tools to save time in-game
 - Develop secure, reusable scripts for both offense & defense
 - Study and learn from other developers' code
-
-## 📌 Roadmap
-- Check the TODO.md(TODO.md)
 
 ## 🤝 Contributions
 
