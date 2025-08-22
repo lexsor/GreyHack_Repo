@@ -5,7 +5,6 @@ Use checkboxes [ ] for pending tasks and [x] for completed ones.
 
 ## 📌 Short Term
 - [ ] Build script for file transfer
-- [ ] Debug lib_check.gs
 
 ## 🔧 Long Term
 - [ ] Dev a program to capture vulnerabilities and build a db that can be referenced
@@ -21,6 +20,7 @@ Use checkboxes [ ] for pending tasks and [x] for completed ones.
 - [ ] Include credits for community contributors
 
 ## ✅ Completed
+- [x] Debug lib_check.gs
 - [x] Set up proper /opt subdirectory creation using create_folder()
 - [x] Refactor scripts to replace deprecated computer.mkdir() calls
 - [x] Finalize opt_dir() function with debug logging
