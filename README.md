@@ -40,12 +40,7 @@ This repository is part of my journey to:
 - Study and learn from other developers' code
 
 ## 📌 Roadmap
-
-- Dev a program to capture vulnerabilities and build a db that can be referenced 
-- find or create a password keeper
-- Add a script index with descriptions & usage examples
-- Include documentation for major programs
-- Build larger modular tools for scanning, exploitation, and securing systems
+- Check the TODO.md(TODO.md)
 
 ## 🤝 Contributions
 
