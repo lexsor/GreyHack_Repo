@@ -27,7 +27,7 @@ grey-hack-scripts/
 │   └── Scripts/          # Stable scripts for exploitation, automation & security
 │
 ├── Other_Devs/           # Scripts & tools from other Grey Hack developers
-│
+├── TODO.md               # Roadmap for this repo
 └── README.md             # You're here!
 ```
 
