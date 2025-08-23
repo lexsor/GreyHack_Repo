@@ -16,20 +16,11 @@ This repository contains my **in-development work**, **production-ready tools**,
 
 ```plaintext
 grey-hack-scripts/
-├── Development/          # Work-in-progress scripts & experiments
-│   ├── Doom_Macros/      # Custom macros for automating Doom-related tasks
-│   ├── Programs/         # Larger programs currently being developed
-│   └── Scripts/          # Experimental or under-construction scripts
-│
-├── Production/           # Stable, tested, production-ready scripts
-│   ├── Doom_Macros/      # Finished Doom macros ready for use
-│   ├── Programs/         # Fully functional Grey Hack programs
-│   └── Scripts/          # Stable scripts for exploitation, automation & security
-│
-├── Other_Devs/           # Scripts & tools from other Grey Hack developers
-│
-├── TODO.md               # Roadmap for this repo
-└── README.md             # You're here!
+├── Programs/           # Fully functional Grey Hack programs
+├── Scripts/            # Stable scripts for exploitation, automation & security
+├── Security/           # Documentation related to the security process  
+├── TODO.md             # Roadmap for this repo
+└── README.md           # You're here!
 ```
 
 ## 📌 Roadmap
