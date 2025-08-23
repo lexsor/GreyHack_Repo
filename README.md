@@ -75,4 +75,4 @@ I want to give special thanks to the amazing Grey Hack community and the followi
 The Grey Hack Discord Community — For troubleshooting tips, testing, and ongoing discussions about new strategies.
 Open Source Contributors — Any libraries, snippets, or resources referenced within the code are credited in their respective files.
 
-If you notice any missing credits or would like your contribution acknowledged, feel free to open an issue or PR. test
+If you notice any missing credits or would like your contribution acknowledged, feel free to open an issue or PR.
