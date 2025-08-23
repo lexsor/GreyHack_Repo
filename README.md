@@ -15,7 +15,7 @@ This repository contains my **in-development work**, **production-ready tools**,
 ## 📂 Repository Structure
 
 ```plaintext
-grey-hack-scripts/
+GreyHack_Repo/
 ├── Programs/           # Fully functional Grey Hack programs
 ├── Scripts/            # Stable scripts for exploitation, automation & security
 ├── Security/           # Documentation related to the security process  
