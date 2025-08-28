@@ -58,7 +58,7 @@ main = function()
   end if
 
   // overwrite file with just the filename and newline
-  res = f.set_content(filename + "\n")
+  res = f.set_content(filename)
   if res == 1 then
     print("[+] Wrote filename to " + current_dir + "/output.txt")
   else
