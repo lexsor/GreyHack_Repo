@@ -10,6 +10,9 @@ A personal collection of scripts, tools, macros, and programs I've developed for
 
 This repository contains my **in-development work**, **production-ready tools**, and a curated set of tools from other developers for learning and inspiration.
 
+### Helpful guide
+https://www.notion.so/Grey-Hack-Documentation-2598db8841f9803d96c0c0e5866c22b1
+
 ---
 
 ## 📂 Repository Structure
