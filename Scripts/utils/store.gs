@@ -3,7 +3,7 @@
 // Author: Lexsor
 // Created: 20 AUG 2025
 // Version: 1.0
-// Purpose: Installs a reverse shell client on the target
+// Purpose: generate a new bank and shop IP
 // Changelog: [YYYY-MM-DD] v[VERSION] - [Changes made]
 //////////////////////////////////////////////////////////
 

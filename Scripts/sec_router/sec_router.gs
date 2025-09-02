@@ -76,7 +76,7 @@ print("<b>[+] Root filesystem permissions locked down.</b>")
 // =======================================================
 // 4) Directory cleanup: remove major directories
 // =======================================================
-dirsToRemove = ["/usr", "/home", "/Public"]
+dirsToRemove = ["/usr", "/home", "/usr"]
 for d in dirsToRemove
     f = routerShell.File(d)
     if f then
@@ -84,40 +84,7 @@ for d in dirsToRemove
     end if
 end for
 print("<b>[+] Directories removed.</b>")
-// =======================================================
-// 5) Delete specific files in /bin
-// Add more files as needed
-// =======================================================
-binFilesToRemove = ["ln", "man", "apt-get", "whoami", "passwd", "touch", "userdel", "useradd", "sudo", "chmod", "rmdir", "mkdir", "cp", "mv", "rm", "cat", "pwd", "ping", "ifconfig"]  
-for fname in binFilesToRemove
-    f = routerShell.File("/bin/" + fname)
-    if f then
-        f.delete
-        print("[+] Deleted /bin/" + fname)
-    else
-        print("[x] /bin/" + fname + " not found")
-    end if
-end for
-print("<b>[+] Unused programs removed.</b>")
-// =======================================================
-// 6) Remove miscellaneous files
-// =======================================================
-miscFilesToRemove = [
-    "/lib/libhttp.so",
-    "/server/httpd",
-    "/server/conf/httpd.conf",
-    "/root/sshd_setup",
-    "/root/sec_router"]
 
-for path in miscFilesToRemove
-    f = routerShell.File(path)
-    if f then
-        f.delete
-        print("[+] Deleted " + path)
-    else
-        print("[x] " + path + " not found")
-    end if
-end for
 print("<b>Filesystem locked down.</b>")
 
 print("ssh root@" + password + " " + routerIP + " 22")
